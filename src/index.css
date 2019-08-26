@@ -1,3 +1,4 @@
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +10,123 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+ul{
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav-menu{
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  background-color: darkgray;
+}
+
+a{
+  padding: 1.2rem;
+  color: black;
+}
+
+#two-pac-section{
+  background:url("./components/images/tupac1.webp");
+  background-size: cover; 
+  height: 39rem;
+  position: relative;
+}
+
+#two-pac-article{
+  position: relative;
+  padding-top: 6rem;
+  width: 25%;
+color: white;
+}
+
+#biggie-section{
+  background:url("./components/images/Biggie1.jpg");
+  background-size: cover; 
+  height: 39rem;
+  position: relative;
+}
+
+#biggie-article{
+  position: relative;
+  padding-top: 6rem;
+  color:white;
+  width: 25%;
+
+}
+
+#metallica-section{
+  background:url("./components/images/metallica1.jpg");
+  background-size: cover; 
+  height: 39rem;
+  position: relative;
+}
+
+#metallica-article{
+  position: relative;
+  padding-top: 6rem;
+  color:white;
+  width: 25%;
+}
+
+
+/* individual components */
+
+.two-pac-section{
+  background:url("./components/images/tupac2.jpg");
+  background-size: cover; 
+  height: 39rem;
+  position: relative;
+}
+
+.two-pac-article{
+  position: relative;
+  padding-top: 6rem;
+  width: 25%;
+  color: white;
+}
+
+.record-article{
+  width: 25%;
+  float: right;
+  color: antiquewhite
+}
+
+/* biggie componet */
+.biggie-section{
+  background:url("./components/images/biggie2.jpg");
+  background-size: cover; 
+  height: 50rem;
+  position: relative;
+}
+
+.biggie-article{
+  position: relative;
+  padding-top: 6rem;
+  width: 25%;
+  color: yellow;
+}
+
+/* metallica component */
+.metallica-section{
+  background:url("./components/images/metallica2.jpg");
+  background-size: cover; 
+  height: 50rem;
+  position: relative;
+}
+
+.metallica-article{
+  position: relative;
+  padding-top: 6rem;
+  width: 25%;
+}
+
+.metallica-record-article{
+  width: 25%;
+  float: right;
+  color: green;
 }
